@@ -1,0 +1,56 @@
+
+.list__item__wrapper
+
+    .list
+        display: grid
+        grid-template-columns: 1fr 5fr 1.25fr 1.25fr 1.25fr 1.25fr
+        border-bottom: 1px solid #414144
+        margin: 10px
+        padding: 5px 5px 15px 5px
+        .input
+            width: 100%
+            padding: 7px
+            width: 90%
+            border-radius: 5px
+            background-color: #27272A
+            border: 1px solid #414144
+            color: #FFFFFF
+
+        .box__options
+            display: flex
+            padding: 5px
+            gap: 10px
+            justify-items: center
+            align-items: center
+            background: #414144
+            border-radius: 6px
+            width: 40px
+            position: relative
+        .box__options__active
+            width: 17px
+        .hor__line
+            position: absolute
+            width: 10px
+            height: 2px
+            background: #FFFFFF
+            position: absolute
+            top: 15px
+            left: -13px
+            z-index: -1
+
+        .vert__line
+            position: absolute
+            width: 2px
+            height: 65px
+            background: #FFFFFF
+            left: -15px
+            top: -48px
+            z-index: -1
+        .vert__line__child
+            position: absolute
+            width: 2px
+            height: 85px
+            background: #FFFFFF
+            left: -15px
+            top: 11px
+            z-index: -1
